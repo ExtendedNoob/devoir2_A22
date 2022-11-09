@@ -14,7 +14,7 @@ Fait par:
 >
 >        * *(R1)* La température du jour est générée d’une façon aléatoire (entre -20 et 30).
 >
->        * *(R2)* Il y a 4 icônes possibles choisies selon les critères suivants :>
+>        * *(R2)* Il y a 4 icônes possibles choisies selon les critères suivants :
 >
 >            o Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.<br>
 >            o Si la température du jour est entre 1 et 10 alors l’icône pluie.jpg est affichée.<br>
