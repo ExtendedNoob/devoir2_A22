@@ -5,7 +5,7 @@ Fait par:
 * Zachary Croteau
 
 ## Consigne du projet
-
+```
     1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images et un dossier css contenant les fichiers CSS.
 
     2. (C1) Une page d’accueil avec la température d’aujourd’hui, une icône et les températures minimale et maximale du jour.
@@ -37,4 +37,4 @@ Fait par:
 >            o Si printemps (mars, avril ou mai) alors la température du mois est entre 0 et 20.
 >
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
-
+```
