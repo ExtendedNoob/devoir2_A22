@@ -5,7 +5,7 @@ Fait par:
 * Zachary Croteau
 
 ## Consigne du projet
-```
+
     1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images et un dossier css contenant les fichiers CSS.
 
     2. (C1) Une page d’accueil avec la température d’aujourd’hui, une icône et les températures minimale et maximale du jour.
@@ -25,15 +25,16 @@ Fait par:
 
         * Les 3 règles R1, R2 et R3 ci-dessus sont appliquées dans les pages previsions3.html et previsions7.html.
 
-    4. (C3) Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
 
-        * (R4) Les températures des mois de l’année sont générées d’une façon aléatoire selon les critères suivants
+>   4. (C3) Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
+>
+>        * (R4) Les températures des mois de l’année sont générées d’une façon aléatoire selon les critères suivants
+>
+>            o Si hiver (décembre, janvier ou février) alors la température du mois est entre -10 et 5.
+>
+>            o Si automne (septembre, octobre ou novembre) alors la température du mois est entre 5 et 20.
+>
+>            o Si printemps (mars, avril ou mai) alors la température du mois est entre 0 et 20.
+>
+>            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
 
-            o Si hiver (décembre, janvier ou février) alors la température du mois est entre -10 et 5.
-
-            o Si automne (septembre, octobre ou novembre) alors la température du mois est entre 5 et 20.
-
-            o Si printemps (mars, avril ou mai) alors la température du mois est entre 0 et 20.
-
-            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
-```
