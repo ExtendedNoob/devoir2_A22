@@ -6,7 +6,9 @@ Fait par:
 
 ## Consigne du projet
 
- >   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images et un dossier css contenant les fichiers CSS.
+ >   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images et un dossier css contenant les fichiers CSS. 
+ >   
+ > ``` FAIT ✔️ ```
 
 >    2. **(C1)** Une page d’accueil avec la température d’aujourd’hui, une icône et les températures minimale et maximale du jour.
 >
@@ -20,12 +22,16 @@ Fait par:
 >            o Si la température du jour est entre 21 et 30 alors l’icône soleil.jpg est affichée.
 >
 >        * *(R3)* Les températures minimale et maximale sont générées d’une façon aléatoire (entre 0 et 5 ± la température du jour)
+>        
+> ``` NON COMMENCÉ ❌ ```
 
 >    3. **(C2)** Les deux liens hypertextes « 3 prochains jours » et « 7 prochains jours » afficheront les pages previsions3.html et previsions7.html des prévisions météorologiques de prochains jours.
 >
 >        * Les 3 règles R1, R2 et R3 ci-dessus sont appliquées dans les pages previsions3.html et previsions7.html.
+>        
+> ``` NON COMMENCÉ ❌ ```
 
->   4. **(C3)** Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
+>    4. **(C3)** Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
 >
 >        * *(R4)* Les températures des mois de l’année sont générées d’une façon aléatoire selon les critères suivants
 >
@@ -36,6 +42,8 @@ Fait par:
 >            o Si printemps (mars, avril ou mai) alors la température du mois est entre 0 et 20.
 >
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
+>            
+> ``` NON COMMENCÉ ❌ ```
 
 <hr>
 
