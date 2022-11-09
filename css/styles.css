@@ -1,0 +1,38 @@
+
+
+/* Styles temp-img*/
+
+.no-img {
+    width: 100px;
+    height: 100px;
+}
+
+.neige {
+    background-image: url(/img/neige.jpg);
+
+    width: 100px;
+    height: 100px;
+}
+
+.nuage {
+    background-image: url(/img/nuage.jpg);
+
+    width: 100px;
+    height: 100px;
+}
+
+.pluie {
+    background-image:  url(/img/pluie.jpg);
+
+    width: 100px;
+    height: 100px;
+}
+
+.soleil {
+    background-image: url(/img/soleil.jpg);
+
+    width: 100px;
+    height: 100px;
+}
+
+/* Autre Styles */

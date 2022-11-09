@@ -23,7 +23,7 @@ Fait par:
 >
 >        * *(R3)* Les températures minimale et maximale sont générées d’une façon aléatoire (entre 0 et 5 ± la température du jour)
 >        
-> ``` NON COMMENCÉ ❌ ```
+> ``` EN COURS 🟡 ```
 
 >    3. **(C2)** Les deux liens hypertextes « 3 prochains jours » et « 7 prochains jours » afficheront les pages previsions3.html et previsions7.html des prévisions météorologiques de prochains jours.
 >
