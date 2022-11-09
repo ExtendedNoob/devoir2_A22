@@ -1,8 +1,8 @@
 # devoir2_A22
 
 Fait par:
-    * Frédérick Sorel
-    * Zachary Croteau
+* Frédérick Sorel
+* Zachary Croteau
 
 ## Consigne du projet
 ```
