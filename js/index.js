@@ -40,6 +40,16 @@
 
 // Génération de temperature max et min de la journée (entre 0 et 5 ±)
 
+
+    //Temperature maximal
+
+    function temperatureMinimalJournée(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+
+    const tempMax = temp + (temperatureMinimalJournée(0, 5))
+    console.log("La tempreature max est " + tempMax + "°C")
+
     //Temperature minimal
 
     function temperatureMinimalJournée(min, max) {
@@ -49,12 +59,8 @@
     const tempMin = temp - (temperatureMinimalJournée(0, 5))
     console.log("La temperature min est " + tempMin + "°C")
 
-    //Temperature maximal
+// Affiché les variables dans le HTML
 
-    function temperatureMinimalJournée(min, max) {
-        return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    
-    const tempMax = temp + (temperatureMinimalJournée(0, 5))
-    console.log("La tempreature max est " + tempMax + "°C")
-
+document.getElementById('tempOutput').innerHTML = temp;
+document.getElementById('tempMaxOutput').innerHTML = tempMax;
+document.getElementById('tempMinOutput').innerHTML = tempMin;

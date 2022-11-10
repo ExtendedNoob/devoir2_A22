@@ -29,7 +29,7 @@ Fait par:
 >
 >        * Les 3 règles R1, R2 et R3 ci-dessus sont appliquées dans les pages previsions3.html et previsions7.html.
 >        
-> ``` NON COMMENCÉ ❌ ```
+> ``` EN COURS 🟡 ```
 
 >    4. **(C3)** Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
 >
