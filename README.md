@@ -6,7 +6,7 @@ Fait par:
 
 ## Consigne du projet
 
->   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images et un dossier css contenant les fichiers CSS. 
+>   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images, un dossier css contenant les fichiers CSS et un dossier js contenant les fichiers JS.
 >   
 > ``` FAIT ✔️ ```
 
@@ -14,12 +14,12 @@ Fait par:
 >
 >        * *(R1)* La température du jour est générée d’une façon aléatoire (entre -20 et 30).
 >
->        * *(R2)* Il y a 4 icônes possibles choisies selon les critères suivants :>
+>        * *(R2)* Il y a 4 icônes possibles choisies selon les critères suivants :
 >
->            o Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.
->            o Si la température du jour est entre 1 et 10 alors l’icône pluie.jpg est affichée.
->            o Si la température du jour est entre 11 et 20 alors l’icône nuage.jpg est affichée.
->            o Si la température du jour est entre 21 et 30 alors l’icône soleil.jpg est affichée.
+>            o Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.<br>
+>            o Si la température du jour est entre 1 et 10 alors l’icône pluie.jpg est affichée.<br>
+>            o Si la température du jour est entre 11 et 20 alors l’icône nuage.jpg est affichée.<br>
+>            o Si la température du jour est entre 21 et 30 alors l’icône soleil.jpg est affichée.<br>
 >
 >        * *(R3)* Les températures minimale et maximale sont générées d’une façon aléatoire (entre 0 et 5 ± la température du jour)
 >        
