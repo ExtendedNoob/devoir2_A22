@@ -8,7 +8,8 @@ Fait par:
 
 >   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images, un dossier css contenant les fichiers CSS et un dossier js contenant les fichiers JS.
 >   
-> ``` FAIT ✔️ ```
+> ```ASPECT TECHNIQUE: FAIT ✔️``` 
+> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
 
 >    2. **(C1)** Une page d’accueil avec la température d’aujourd’hui, une icône et les températures minimale et maximale du jour.
 >
@@ -23,13 +24,15 @@ Fait par:
 >
 >        * *(R3)* Les températures minimale et maximale sont générées d’une façon aléatoire (entre 0 et 5 ± la température du jour)
 >        
-> ``` FAIT ✔️ ```
+> ```ASPECT TECHNIQUE: FAIT ✔️``` 
+> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
 
 >    3. **(C2)** Les deux liens hypertextes « 3 prochains jours » et « 7 prochains jours » afficheront les pages previsions3.html et previsions7.html des prévisions météorologiques de prochains jours.
 >
 >        * Les 3 règles R1, R2 et R3 ci-dessus sont appliquées dans les pages previsions3.html et previsions7.html.
 >        
-> ``` EN COURS 🟡 ```
+> ```ASPECT TECHNIQUE: EN COURS 🟡``` 
+> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
 
 >    4. **(C3)** Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
 >
@@ -43,11 +46,15 @@ Fait par:
 >
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
 >            
-> ``` NON COMMENCÉ ❌ ```
+> ```ASPECT TECHNIQUE: NON COMMENCÉ ❌``` 
+> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
 
 <hr>
 
 ### Légende
+
+* ASPECT TECHNIQUE: JS (FAIT) / HTML SHELL (FAIT)
+* ASPECT DE STYLE: HTML (FAIT) / CSS (FAIT)
 
 * FAIT ✔️
 * EN COURS 🟡
