@@ -5,8 +5,6 @@
     }
     
     const temp = randomIntFromInterval(-20, 30)
-    console.log("La temperature est de " + temp + "°C")
-
 
         // Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.
 
