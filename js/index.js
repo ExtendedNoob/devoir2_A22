@@ -10,6 +10,7 @@
     }
 // Génération de temperature.
     const temp = GenerationTemp(-20, 30)
+
         // Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.
             if (temp >= -20 && temp <= 0) {
                 document.getElementById("imgNeige").classList.remove("imgHide");
