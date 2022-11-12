@@ -9,7 +9,7 @@ Fait par:
 >   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images, un dossier css contenant les fichiers CSS et un dossier js contenant les fichiers JS.
 >   
 > ```ASPECT TECHNIQUE: FAIT ✔️``` 
-> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
+> ```ASPECT DE STYLE: FAIT ✔️```
 
 >    2. **(C1)** Une page d’accueil avec la température d’aujourd’hui, une icône et les températures minimale et maximale du jour.
 >
@@ -46,7 +46,7 @@ Fait par:
 >
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
 >            
-> ```ASPECT TECHNIQUE: NON COMMENCÉ ❌``` 
+> ```ASPECT TECHNIQUE: EN COURS 🟡``` 
 > ```ASPECT DE STYLE: NON COMMENCÉ ❌```
 
 <hr>
