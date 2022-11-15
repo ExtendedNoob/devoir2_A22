@@ -1,0 +1,27 @@
+.test{
+    border: 1px solid red;
+}
+
+/* Styles img */
+
+.imgHide {
+    opacity: 10%;
+}
+.imgIndex {
+    position: absolute;
+}
+
+.img-container {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+/* Autre Styles */
+.temp-index{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.spacing1 {
+    top: 50px;
+}

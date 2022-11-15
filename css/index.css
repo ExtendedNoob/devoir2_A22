@@ -1,0 +1,35 @@
+
+body {
+    background-image: url(/img/BGmontreal.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Oswald', sans-serif;
+}
+
+.test{
+    border: 1px solid red;
+}
+
+/* Styles img */
+
+.imgHide {
+    opacity: 0%;
+}
+.imgIndex {
+    position: absolute;
+}
+
+.img-container {
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
+
+/* Autre Styles */
+.temp-index{
+    font-family: 'Oswald', sans-serif;
+}
+
+.spacing1 {
+    top: 50px;
+}

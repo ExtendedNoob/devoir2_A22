@@ -9,7 +9,7 @@
         return Math.floor(Math.random() * (max - min + 1) + min)
     }
 // Génération de temperature.
-    const temp = GenerationTemp(-20, 30)
+    var temp = GenerationTemp(-20, 30)
 
         // Si la température du jour est entre -20 et 0 alors l’icône neige.jpg est affichée.
             if (temp >= -20 && temp <= 0) {
@@ -33,6 +33,6 @@
     //Temperature minimal.
     const tempMin = temp - (GenerationTempMin(0, 5))
 // Affiché les variables dans le HTML.
-document.getElementById('tempOutput').innerHTML = temp;
-document.getElementById('tempMaxOutput').innerHTML = tempMax;
-document.getElementById('tempMinOutput').innerHTML = tempMin;
+    document.getElementById('tempOutput').innerHTML = temp;
+    document.getElementById('tempMaxOutput').innerHTML = tempMax;
+    document.getElementById('tempMinOutput').innerHTML = tempMin;
