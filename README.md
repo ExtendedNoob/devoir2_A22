@@ -25,14 +25,14 @@ Fait par:
 >        * *(R3)* Les températures minimale et maximale sont générées d’une façon aléatoire (entre 0 et 5 ± la température du jour)
 >        
 > ```ASPECT TECHNIQUE: FAIT ✔️``` 
-> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
+> ```ASPECT DE STYLE: EN COURS 🟡```
 
 >    3. **(C2)** Les deux liens hypertextes « 3 prochains jours » et « 7 prochains jours » afficheront les pages previsions3.html et previsions7.html des prévisions météorologiques de prochains jours.
 >
 >        * Les 3 règles R1, R2 et R3 ci-dessus sont appliquées dans les pages previsions3.html et previsions7.html.
 >        
 > ```ASPECT TECHNIQUE: EN COURS 🟡``` 
-> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
+> ```ASPECT DE STYLE: EN COURS 🟡```
 
 >    4. **(C3)** Le lien hypertexte « Statistiques » affiche des statiques météorologiques de l’année en cours.
 >
@@ -47,7 +47,7 @@ Fait par:
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
 >            
 > ```ASPECT TECHNIQUE: EN COURS 🟡``` 
-> ```ASPECT DE STYLE: NON COMMENCÉ ❌```
+> ```ASPECT DE STYLE: EN COURS 🟡```
 
 <hr>
 
