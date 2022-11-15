@@ -11,6 +11,13 @@
     function TempJour3(min, max) { // min and max inclu.
         return Math.floor(Math.random() * (max - min + 1) + min)
     }
+// Créations de fonctions +10 et -10. ()
+   function plus10(min, max){
+        return Math.floor(Math.random() * (max - min + 1) + min)
+   }
+   function moin10(min, max){
+        return Math.floor(Math.random() * (max - min + 1) + min)
+   } 
 //Génération de temperature initiale.
     const tempInitiale = TempInitiale(-20, 30)
     console.log("tempInitial: " + tempInitiale)
@@ -18,20 +25,10 @@
     // Jour 2
         const tempJour2 = tempInitiale + (TempJour2(-10, 10 ))
         if (tempJour2 <= -20) {
-            const tempJour2 = -20;
+            const tempJour2 = tempJour2 + (plus10(10, 10))
         }
         else if (tempJour2 >= 30) {
             const tempJour2 = 30;
         }
         console.log("TempJour2: " + tempJour2)
-    //Jour 3.
-        const tempJour3 = tempJour2 + (TempJour3(-10, 10))
-        if (tempJour3 <= -20) {
-            const tempJour3 = -20;
-        }
-        else if (tempJour3 >= 30) {
-            const tempJour3 = 30;
-        }
-        console.log("TempJour3: " + tempJour3)
-// Affiché les variables dans le HTML.
-document.getElementById("").innerHTML = m;
+    //Jour 3. http://127.0.0.1/
