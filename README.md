@@ -4,6 +4,10 @@ Fait par:
 * Frédérick Sorel
 * Zachary Croteau
 
+## But
+
+On veut développer un site web pour les données météorologiques de la ville de Montréal en utilisant les langages HTML/CSS/JavaScript. (Température généré au hasard)
+
 ## Consigne du projet
 
 >   1. Dans un projet devoir2, créer une page index.html, un dossier html contenant les autres pages HTML, un dossier img contenant les images, un dossier css contenant les fichiers CSS et un dossier js contenant les fichiers JS.
