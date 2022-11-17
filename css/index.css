@@ -15,8 +15,12 @@ body {
 .imgHide {
     opacity: 0%;
 }
+
 .imgIndex {
     position: absolute;
+    top: 140px;
+    left: 40px;
+    border-radius: 5px;
 }
 
 .img-container {
@@ -32,4 +36,18 @@ body {
 
 .spacing1 {
     top: 50px;
+}
+.tableau{
+    background-color: white;
+    width: 600px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.navig{
+background-color: white;
+font-size: 30px;
+height: 120%;
 }
