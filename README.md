@@ -53,12 +53,12 @@ On veut développer un site web pour les données météorologiques de la ville 
 > ```ASPECT TECHNIQUE: EN COURS 🟡``` 
 > ```ASPECT DE STYLE: EN COURS 🟡```
 
-<hr>
-
-### Légende
+## Légende
 
 * ASPECT TECHNIQUE: JS (FAIT) / HTML SHELL (FAIT)
 * ASPECT DE STYLE: HTML (FAIT) / CSS (FAIT)
+
+<br>
 
 * FAIT ✔️
 * EN COURS 🟡
