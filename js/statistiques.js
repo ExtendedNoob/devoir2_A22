@@ -38,7 +38,14 @@
     document.getElementById('tempJuin').innerHTML = tempJuin;
     document.getElementById('tempJuillet').innerHTML = tempJuillet;
     document.getElementById('tempAout').innerHTML = tempAout;
-//Temperature moyenne
-var tempMoyenneAnnuel = Math.round((tempDecembre + tempJanvier + tempFevrier + tempSeptembre + 
-    tempOctobre + tempNovembre + tempMars + tempAvril + tempMai + tempJuin + tempJuillet + tempAout) / 12);
-document.getElementById('tempMoyenneAnnuel').innerHTML = tempMoyenneAnnuel;
+// Temperature moyenne
+    var tempMoyenneAnnuel = Math.round((tempDecembre + tempJanvier + tempFevrier + tempSeptembre + 
+        tempOctobre + tempNovembre + tempMars + tempAvril + tempMai + tempJuin + tempJuillet + tempAout) / 12);
+    document.getElementById('tempMoyenneAnnuel').innerHTML = tempMoyenneAnnuel;
+// Temperature minimum / maximum
+    var tempMinAnnuel = Math.min(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
+        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
+        document.getElementById('tempMinAnnuel').innerHTML = tempMinAnnuel;
+    var tempMaxAnnuel = Math.max(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
+        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
+        document.getElementById('tempMaxAnnuel').innerHTML = tempMaxAnnuel;

@@ -50,7 +50,7 @@ On veut développer un site web pour les données météorologiques de la ville 
 >
 >            o Si été (juin, juillet ou août) alors la température du mois est entre 15 et 30.
 >            
-> ```ASPECT TECHNIQUE: EN COURS 🟡``` 
+> ```ASPECT TECHNIQUE: FAIT ✔️``` 
 > ```ASPECT DE STYLE: EN COURS 🟡```
 
 ## Légende
