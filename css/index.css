@@ -1,60 +1,97 @@
+/* Css General */
 
-body {
-    background-image: url(/img/BGmontreal.webp);
-    background-repeat: no-repeat;
-    font-family: 'Oswald', sans-serif;
-}
+    body {
+        background-image: url(/img/BGmontreal.webp);
+        background-repeat: no-repeat;
+        font-family: 'Oswald', sans-serif;
+    }
 
-.test{
-    border: 1px solid red;
-}
+    .temp-index{
+        font-family: 'Oswald', sans-serif;
+    }
 
-/* Styles img */
+    .spacing1 {
+        top: 50px;
+    }
 
-.imgHide {
-    opacity: 0%;
-}
+/* Css Img */
 
-.imgIndex {
-    position: absolute;
-    top: 140px;
-    left: 40px;
-    border-radius: 5px;
-}
+    .imgHide {
+        opacity: 0%;
+        position: absolute;
+        top: -1000px;
+    }
 
-.img-container {
-    height: 100px;
-    width: 100px;
-    position: relative;
-}
+    .img-container {
+        height: 100px;
+        width: 100%;
+        align-content: center;
+    }
 
-/* Autre Styles */
-.temp-index{
-    font-family: 'Oswald', sans-serif;
-}
+/* Css Nav */
 
-.spacing1 {
-    top: 50px;
-}
-.tableau{
-    background-color: white;
-    width: 600px;
-    height: 200px;
-    text-align: center;
-    border: 1px solid black;
-    margin-top: 30px;
-    margin-left: 20px;
-}
-.navig{
-    background-color: rgb(114, 153, 197);
-    font-size: 30px;
-    height: 120%;
-    color: white;
-}
+    nav {
+        background-color: rgb(114, 153, 197);
+        font-size: 30px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        color: white;
+    }
 
-a {
-    color: white;
-    text-decoration: none;
-    float: right;
-    padding-right: 3%;
-}
+    a {
+        color: white;
+        text-decoration: none;
+        float: right;
+        padding-right: 3%;
+    }
+
+/* Css Pages */
+
+    /* Css Index */
+
+        .tableau-index {
+            background-color: white;
+            width: 600px;
+            height: 200px;
+            text-align: center;
+            border: 1px solid black;
+            margin-top: 30px;
+            margin-left: 20px;
+        }
+
+    /* Css Prévisions */
+
+        /* Css Info Containers */
+
+            .info-container {
+                height: 250px;
+                width: 100%;
+            }
+
+            .info-containers {
+                height: 300px;
+                width: 135px;
+                border: 2px solid black;
+                border-radius: 5px;
+                background-color: white;
+            }
+
+    /* Css Statistique */
+
+        .tableau-statistiques {
+            background-color: white;
+            text-align: center;
+            border: 2px solid;
+            width: 400px;
+            height: 600px;
+            }
+        
+        .thBg1 {
+            background-color: #c6f2fa;
+        }
+
+        .thBg2 {
+            background-color: rgb(114, 153, 197);
+        }

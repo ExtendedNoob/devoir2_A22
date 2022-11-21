@@ -4,70 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/previsions.css">
-
+    <link rel="stylesheet" href="/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
-
-    <title>Prévisions 3</title>
+        <title>Prévisions 3</title>
 </head>
 <body>
-    <div class="navig">
-        <span>Montréal, QC(Canada)</span>
-        <a href="statistiques.html">Statistiques</a>
-        <a href="previsions7.html">Prévisions 7</a>
-        <a href="/index.html">Retour</a>
-    </div><br><br>
 
-<div class="info-container">
+        <nav>
+            <span>Montréal, QC(Canada)</span>
+            <a href="statistiques.html">Statistiques</a>
+            <a href="previsions7.html">Prévisions 7</a>
+            <a href="/index.html">Retour</a>
+        </nav><br><br>
 
-<!-- info 1 -->
-    <div class="info-containers info-containers-1">
-        <h3>Demain</h3>
-                <div class="">
-                    <img src="/img/neige.jpg" alt="img-neige" id="imgNeige-1" class="imgHide imgIndex">
-                    <img src="/img/nuage.jpg" alt="img-nuage" id="imgNuage-1" class="imgHide imgIndex">
-                    <img src="/img/pluie.jpg" alt="img-pluie" id="imgPluie-1" class="imgHide imgIndex">
-                    <img src="/img/soleil.jpg" alt="img-soleil" id="imgSoleil-1" class="imgHide imgIndex">
-                </div>
-                <br><br><br>
-            <h1><b id="tempInitiale"></b>°C</h1>
-            <h1><b id="tempMax1"></b>°C</h1>
-            <h1><b id="tempMin1"></b>°C</h1>
-        </div>
+        <div class="info-container">
 
-<!-- info 2 -->
-    <div class="info-containers info-containers-2">
-        <h3>Après 2 jours</h3>
-            <div class="">
-                <img src="/img/neige.jpg" alt="img-neige" id="imgNeige-2" class="imgHide imgIndex">
-                <img src="/img/nuage.jpg" alt="img-nuage" id="imgNuage-2" class="imgHide imgIndex">
-                <img src="/img/pluie.jpg" alt="img-pluie" id="imgPluie-2" class="imgHide imgIndex">
-                <img src="/img/soleil.jpg" alt="img-soleil" id="imgSoleil-2" class="imgHide imgIndex">
-            </div>
-            <br><br><br>
-        <h1><b id="tempJour2"></b>°C</h1>
-        <h1><b id="tempMax2"></b>°C</h1>
-        <h1><b id="tempMin2"></b>°C</h1>
-        </div>
+            <table>
+            <!-- info 1 -->
+                <tr>
+                    <th><div class="info-containers info-containers-1">
+                        <h4>Demain</h4>
+                            <div class="img-container">
+                                <img src="/img/neige.jpg" alt="img-neige"
+                                    id="imgNeige-1" class="imgHide imgIndex">
+                                <img src="/img/nuage.jpg" alt="img-nuage"
+                                    id="imgNuage-1" class="imgHide imgIndex">
+                                <img src="/img/pluie.jpg" alt="img-pluie"
+                                    id="imgPluie-1" class="imgHide imgIndex">
+                                <img src="/img/soleil.jpg" alt="img-soleil"
+                                    id="imgSoleil-1" class="imgHide imgIndex">
+                            </div>
+                        <p>Temperature: <b id="tempInitiale"></b>°C</p>
+                        <p>Max: <b id="tempMax1"></b>°C</p>
+                        <p>Min: <b id="tempMin1"></b>°C</p>
+                    </div></th>
+            <!-- info 2 -->
+                <th><div class="info-containers info-containers-2">
+                    <h4>Après 2 jours</h4>
+                        <div class="img-container">
+                            <img src="/img/neige.jpg" alt="img-neige"
+                                id="imgNeige-2" class="imgHide imgIndex">
+                            <img src="/img/nuage.jpg" alt="img-nuage"
+                                id="imgNuage-2" class="imgHide imgIndex">
+                            <img src="/img/pluie.jpg" alt="img-pluie"
+                                id="imgPluie-2" class="imgHide imgIndex">
+                            <img src="/img/soleil.jpg" alt="img-soleil"
+                                id="imgSoleil-2" class="imgHide imgIndex">
+                        </div>
+                    <p>Temperature: <b id="tempJour2"></b>°C</p>
+                    <p>Max: <b id="tempMax2"></b>°C</p>
+                    <p>Min: <b id="tempMin2"></b>°C</p>
+                </div></th>
+            <!-- info 3 -->
+                <th><div class="info-containers info-containers-3">
+                    <h4>Après 3 jours</h4>
+                        <div class="img-container">
+                            <img src="/img/neige.jpg" alt="img-neige"
+                                id="imgNeige-3" class="imgHide imgIndex">
+                            <img src="/img/nuage.jpg" alt="img-nuage"
+                                id="imgNuage-3" class="imgHide imgIndex">
+                            <img src="/img/pluie.jpg" alt="img-pluie"
+                                id="imgPluie-3" class="imgHide imgIndex">
+                            <img src="/img/soleil.jpg" alt="img-soleil"
+                                id="imgSoleil-3" class="imgHide imgIndex">
+                        </div>
+                    <p>Temperature: <b id="tempJour3"></b>°C</p>
+                    <p>Max: <b id="tempMax3"></b>°C</p>
+                    <p>Min: <b id="tempMin3"></b>°C</p>
+                </div></th>
 
-<!-- info 3 -->
-    <div class="info-containers info-containers-3">
-        <h3>Après 3 jours</h3>
-            <div class="">
-                <img src="/img/neige.jpg" alt="img-neige" id="imgNeige-3" class="imgHide imgIndex">
-                <img src="/img/nuage.jpg" alt="img-nuage" id="imgNuage-3" class="imgHide imgIndex">
-                <img src="/img/pluie.jpg" alt="img-pluie" id="imgPluie-3" class="imgHide imgIndex">
-                <img src="/img/soleil.jpg" alt="img-soleil" id="imgSoleil-3" class="imgHide imgIndex">
-            </div>
-            <br><br><br>
-        <h1><b id="tempJour3"></b>°C</h1>
-        <h1><b id="tempMax3"></b>°C</h1>
-        <h1><b id="tempMin3"></b>°C</h1>
-        </div>
-</div>
-
-    <script src="/js/previsions3.js"></script>
-</body>
+            </tr>
+        </table>
+    </div>
+<script src="/js/previsions3.js"></script>
+    </body>
 </html>

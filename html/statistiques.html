@@ -4,30 +4,29 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/statistique.css">
+        <link rel="stylesheet" href="/css/index.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
 
         <title>Statistiques</title>
     </head>
     <body>
-        <div class="navig">
+        
+        <nav>
             <span>Montréal, QC(Canada)</span>
             <a href="previsions7.html">Prévisions 7</a>
             <a href="previsions3.html">Prévisions 3</a>
             <a href="/index.html">Retour</a>
-        </div><br><br>
+        </nav><br><br>
 
 
     <center>
-    <h2 id="tempMoyenneAnnuel"></h2>
-    <h2 id="tempMinAnnuel"></h2>
-    <h2 id="tempMaxAnnuel"></h2>
-        <table>
-            <tr>
+    <h2>La température moyenne de cette année est de <b id="tempMoyenneAnnuel"></b>°C</h2>
+    <h2>La température minimum de cette année est de <b id="tempMinAnnuel"></b>°C</h2>
+    <h2>La température maximum de cette année est de <b id="tempMaxAnnuel"></b>°C</h2>
+        <table class="tableau-statistiques">
+            <tr class="thBg2">
                 <th>Mois</th>
                 <th>Température moyenne</th>
             </tr>
@@ -35,7 +34,7 @@
                 <td>Janvier</td>
                 <td id="tempJanvier"></td>
             </tr>
-            <tr>
+            <tr class="thBg1">
                 <td>Février</td>
                 <td id="tempFevrier"></td>
             </tr> 
@@ -43,7 +42,7 @@
                 <td>Mars</td>
                 <td id="tempMars"></td>
             </tr> 
-            <tr>
+            <tr class="thBg1">
                 <td>Avril</td>
                 <td id="tempAvril"></td>
             </tr> 
@@ -51,7 +50,7 @@
                 <td>Mai</td>
                 <td id="tempMai"></td>
             </tr> 
-            <tr>
+            <tr class="thBg1">
                 <td>Juin</td>
                 <td id="tempJuin"></td>
             </tr> 
@@ -59,7 +58,7 @@
                 <td>Juillet</td>
                 <td id="tempJuillet"></td>
             </tr>
-            <tr>
+            <tr class="thBg1">
                 <td>Août</td>
                 <td id="tempAout"></td>
             </tr> 
@@ -67,7 +66,7 @@
                 <td>Septembre</td>
                 <td id="tempSeptembre"></td>
             </tr> 
-            <tr>
+            <tr class="thBg1">
                 <td>Octobre</td>
                 <td id="tempOctobre"></td>
             </tr> 
@@ -75,7 +74,7 @@
                 <td>Novembre</td>
                 <td id="tempNovembre"></td>
             </tr> 
-            <tr>
+            <tr class="thBg1">
                 <td>Décembre </td>
                 <td id="tempDecembre"></td>
             </tr> 
