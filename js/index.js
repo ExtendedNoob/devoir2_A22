@@ -23,9 +23,11 @@
             }
 // Génération de temperature max et min de la journée. (entre 0 et 5 ±)
     //Temperature maximal.
-    const tempMax = temp + (Generation(0, 5))
+    var tempMax = temp + (Generation(0, 5))
+    var tempJour2 = Math.min(Math.max(parseInt(tempMax), -20), 30);
     //Temperature minimal.
-    const tempMin = temp - (Generation(0, 5))
+    var tempMin = temp - (Generation(0, 5))
+    var tempJour2 = Math.min(Math.max(parseInt(tempMin), -20), 30);
 // Affiché les variables dans le HTML.
     document.getElementById('tempOutput').innerHTML = temp;
     document.getElementById('tempMaxOutput').innerHTML = tempMax;

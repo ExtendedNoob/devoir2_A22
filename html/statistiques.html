@@ -20,11 +20,17 @@
             <a href="/index.html">Retour</a>
         </nav><br><br>
 
-
     <center>
-    <h2>La température moyenne de cette année est de <b id="tempMoyenneAnnuel"></b>°C</h2>
-    <h2>La température minimum de cette année est de <b id="tempMinAnnuel"></b>°C</h2>
-    <h2>La température maximum de cette année est de <b id="tempMaxAnnuel"></b>°C</h2>
+    <h2>Les statistiques de cette année</h2>
+    <hr>
+
+    <div>
+        <div>
+            <h3>La température moyenne: <b id="tempMoyenneAnnuel"></b>°C</h3>
+            <h3>La température minimum: <b id="tempMinAnnuel"></b>°C</h3>
+            <h3>La température maximum: <b id="tempMaxAnnuel"></b>°C</h3>
+        </div>
+        
         <table class="tableau-statistiques">
             <tr class="thBg2">
                 <th>Mois</th>
@@ -79,7 +85,7 @@
                 <td id="tempDecembre"></td>
             </tr> 
 
-        </table>
+        </table></div>
     </center>
         <script src="/js/statistiques.js"></script>
     </body>
