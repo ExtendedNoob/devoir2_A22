@@ -1,6 +1,7 @@
     // Facteur logique: La temprerature ne peut pas passé de -20 à 30 °C dans un délait de 1 jour.
     //                  Une différence de + ou - 15 °C sera appliqué entre les jours.
     //                  La temperature ne dépassera pas -20 ou 30°C.
+    //                  Le Min et Max ne dépassera pas -20 ou 30°C.
 // Function
     function Generation(min, max) { // min and max inclu.
         return Math.floor(Math.random() * (max - min + 1) + min)
