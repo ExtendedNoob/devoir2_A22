@@ -22,6 +22,17 @@
     var tempJuin = Generation(15, 30)
     var tempJuillet = Generation(15, 30)
     var tempAout = Generation(15, 30)
+// Temperature moyenne
+    var tempMoyenneAnnuel = Math.round((tempDecembre + tempJanvier + tempFevrier + tempSeptembre + 
+        tempOctobre + tempNovembre + tempMars + tempAvril + tempMai + tempJuin + tempJuillet + tempAout) / 12);
+    document.getElementById('tempMoyenneAnnuel').innerHTML = tempMoyenneAnnuel;
+// Temperature minimum / maximum
+    var tempMinAnnuel = Math.min(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
+        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
+        document.getElementById('tempMinAnnuel').innerHTML = tempMinAnnuel;
+    var tempMaxAnnuel = Math.max(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
+        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
+        document.getElementById('tempMaxAnnuel').innerHTML = tempMaxAnnuel;
 // Affiché les variables dans le HTML.
     document.getElementById('tempDecembre').innerHTML = tempDecembre;
     document.getElementById('tempJanvier').innerHTML = tempJanvier;
@@ -38,14 +49,3 @@
     document.getElementById('tempJuin').innerHTML = tempJuin;
     document.getElementById('tempJuillet').innerHTML = tempJuillet;
     document.getElementById('tempAout').innerHTML = tempAout;
-// Temperature moyenne
-    var tempMoyenneAnnuel = Math.round((tempDecembre + tempJanvier + tempFevrier + tempSeptembre + 
-        tempOctobre + tempNovembre + tempMars + tempAvril + tempMai + tempJuin + tempJuillet + tempAout) / 12);
-    document.getElementById('tempMoyenneAnnuel').innerHTML = tempMoyenneAnnuel;
-// Temperature minimum / maximum
-    var tempMinAnnuel = Math.min(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
-        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
-        document.getElementById('tempMinAnnuel').innerHTML = tempMinAnnuel;
-    var tempMaxAnnuel = Math.max(tempDecembre, tempJanvier, tempFevrier, tempSeptembre,
-        tempOctobre, tempNovembre, tempMars, tempAvril, tempMai, tempJuin, tempJuillet, tempAout)
-        document.getElementById('tempMaxAnnuel').innerHTML = tempMaxAnnuel;

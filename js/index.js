@@ -32,3 +32,9 @@
     document.getElementById('tempOutput').innerHTML = temp;
     document.getElementById('tempMaxOutput').innerHTML = tempMax;
     document.getElementById('tempMinOutput').innerHTML = tempMin;
+// Date
+    var now = new Date();
+    var annee   = now.getFullYear();
+    var mois    = now.getMonth() + 1;
+    var jour    = now.getDate();
+    document.getElementById('Date').innerHTML = "Nous sommes le " + jour + "/"  + mois + "/" + annee;

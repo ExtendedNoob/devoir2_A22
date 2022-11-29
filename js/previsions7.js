@@ -46,12 +46,10 @@
     //Jour 3. 
         var tempJour3 = tempJour2 + (Generation(-15, 15))
         var tempJour3 = Math.min(Math.max(parseInt(tempJour3), -20), 30);
-
         var tempMax3 = tempJour3 + (Generation(0, 5))
-        var tempMax3 = Math.min(Math.max(parseInt(tempJour3), -20), 30);
-
+        var tempMax3 = Math.min(Math.max(parseInt(tempMax3), -20), 30);
         var tempMin3 = tempJour3 - (Generation(0, 5))
-        var tempMin3 = Math.min(Math.max(parseInt(tempJour3), -20), 30);
+        var tempMin3 = Math.min(Math.max(parseInt(tempMin3), -20), 30);
 
             if (tempJour3 >= -20 && tempJour3 <= 0) {
                 document.getElementById("imgNeige-3").classList.remove("imgHide");
@@ -68,11 +66,10 @@
     // Jour 4.
         var tempJour4 = tempJour3 + (Generation(-15, 15))
         var tempJour4 = Math.min(Math.max(parseInt(tempJour4), -20), 30);
-
         var tempMax4 = tempJour4 + (Generation(0, 5))
-
+        var tempMax4 = Math.min(Math.max(parseInt(tempMax4), -20), 30);
         var tempMin4 = tempJour4 - (Generation(0, 5))
-
+        var tempMin4 = Math.min(Math.max(parseInt(tempMin4), -20), 30);
             if (tempJour4 >= -20 && tempJour4 <= 0) {
                 document.getElementById("imgNeige-4").classList.remove("imgHide");
             }
@@ -88,11 +85,10 @@
     //Jour 5. 
         var tempJour5 = tempJour4 + (Generation(-15, 15))
         var tempJour5 = Math.min(Math.max(parseInt(tempJour5), -20), 30);
-
         var tempMax5 = tempJour5 + (Generation(0, 5))
-
+        var tempMax5 = Math.min(Math.max(parseInt(tempMax5), -20), 30);
         var tempMin5 = tempJour5 - (Generation(0, 5))
-
+        var tempMin5 = Math.min(Math.max(parseInt(tempMin5), -20), 30);
             if (tempJour5 >= -20 && tempJour5 <= 0) {
                 document.getElementById("imgNeige-5").classList.remove("imgHide");
             }
@@ -108,11 +104,10 @@
     // Jour 6.
         var tempJour6 = tempJour5 + (Generation(-15, 15))
         var tempJour6 = Math.min(Math.max(parseInt(tempJour6), -20), 30);
-
         var tempMax6 = tempJour6 + (Generation(0, 5))
-
+        var tempMax6 = Math.min(Math.max(parseInt(tempMax6), -20), 30);
         var tempMin6 = tempJour6 - (Generation(0, 5))
-
+        var tempMin6 = Math.min(Math.max(parseInt(tempMin6), -20), 30);
             if (tempJour6 >= -20 && tempJour6 <= 0) {
                 document.getElementById("imgNeige-6").classList.remove("imgHide");
             }
@@ -128,11 +123,10 @@
     //Jour 7. 
         var tempJour7 = tempJour6 + (Generation(-15, 15))
         var tempJour7 = Math.min(Math.max(parseInt(tempJour7), -20), 30);
-
         var tempMax7 = tempJour7 + (Generation(0, 5))
-
+        var tempMax7 = Math.min(Math.max(parseInt(tempMax7), -20), 30);
         var tempMin7 = tempJour7 - (Generation(0, 5))
-
+        var tempMin7 = Math.min(Math.max(parseInt(tempMin7), -20), 30);
             if (tempJour7 >= -20 && tempJour7 <= 0) {
                 document.getElementById("imgNeige-7").classList.remove("imgHide");
             }
